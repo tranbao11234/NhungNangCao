@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"thuchanhledtraitim\startup_stm32f401xe.o"
+"thuchanhledtraitim\main.o"
+"thuchanhledtraitim\stm32f4xx_it.o"
+"thuchanhledtraitim\stm32f4xx_hal_msp.o"
+"thuchanhledtraitim\stm32f4xx_hal_tim.o"
+"thuchanhledtraitim\stm32f4xx_hal_tim_ex.o"
+"thuchanhledtraitim\stm32f4xx_hal_rcc.o"
+"thuchanhledtraitim\stm32f4xx_hal_rcc_ex.o"
+"thuchanhledtraitim\stm32f4xx_hal_flash.o"
+"thuchanhledtraitim\stm32f4xx_hal_flash_ex.o"
+"thuchanhledtraitim\stm32f4xx_hal_flash_ramfunc.o"
+"thuchanhledtraitim\stm32f4xx_hal_gpio.o"
+"thuchanhledtraitim\stm32f4xx_hal_dma_ex.o"
+"thuchanhledtraitim\stm32f4xx_hal_dma.o"
+"thuchanhledtraitim\stm32f4xx_hal_pwr.o"
+"thuchanhledtraitim\stm32f4xx_hal_pwr_ex.o"
+"thuchanhledtraitim\stm32f4xx_hal_cortex.o"
+"thuchanhledtraitim\stm32f4xx_hal.o"
+"thuchanhledtraitim\stm32f4xx_hal_exti.o"
+"thuchanhledtraitim\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "ThucHanhLedTraiTim\ThucHanhLedTraiTim.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ThucHanhLedTraiTim.map" -o ThucHanhLedTraiTim\ThucHanhLedTraiTim.axf

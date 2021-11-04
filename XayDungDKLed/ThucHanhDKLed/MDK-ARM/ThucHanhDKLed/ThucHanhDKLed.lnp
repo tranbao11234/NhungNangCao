@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"thuchanhdkled\startup_stm32f401xe.o"
+"thuchanhdkled\main.o"
+"thuchanhdkled\stm32f4xx_it.o"
+"thuchanhdkled\stm32f4xx_hal_msp.o"
+"thuchanhdkled\stm32f4xx_hal_tim.o"
+"thuchanhdkled\stm32f4xx_hal_tim_ex.o"
+"thuchanhdkled\stm32f4xx_hal_rcc.o"
+"thuchanhdkled\stm32f4xx_hal_rcc_ex.o"
+"thuchanhdkled\stm32f4xx_hal_flash.o"
+"thuchanhdkled\stm32f4xx_hal_flash_ex.o"
+"thuchanhdkled\stm32f4xx_hal_flash_ramfunc.o"
+"thuchanhdkled\stm32f4xx_hal_gpio.o"
+"thuchanhdkled\stm32f4xx_hal_dma_ex.o"
+"thuchanhdkled\stm32f4xx_hal_dma.o"
+"thuchanhdkled\stm32f4xx_hal_pwr.o"
+"thuchanhdkled\stm32f4xx_hal_pwr_ex.o"
+"thuchanhdkled\stm32f4xx_hal_cortex.o"
+"thuchanhdkled\stm32f4xx_hal.o"
+"thuchanhdkled\stm32f4xx_hal_exti.o"
+"thuchanhdkled\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "ThucHanhDKLed\ThucHanhDKLed.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ThucHanhDKLed.map" -o ThucHanhDKLed\ThucHanhDKLed.axf

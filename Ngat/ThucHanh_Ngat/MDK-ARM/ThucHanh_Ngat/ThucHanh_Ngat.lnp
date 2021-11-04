@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"thuchanh_ngat\startup_stm32f401xe.o"
+"thuchanh_ngat\main.o"
+"thuchanh_ngat\stm32f4xx_it.o"
+"thuchanh_ngat\stm32f4xx_hal_msp.o"
+"thuchanh_ngat\stm32f4xx_hal_tim.o"
+"thuchanh_ngat\stm32f4xx_hal_tim_ex.o"
+"thuchanh_ngat\stm32f4xx_hal_rcc.o"
+"thuchanh_ngat\stm32f4xx_hal_rcc_ex.o"
+"thuchanh_ngat\stm32f4xx_hal_flash.o"
+"thuchanh_ngat\stm32f4xx_hal_flash_ex.o"
+"thuchanh_ngat\stm32f4xx_hal_flash_ramfunc.o"
+"thuchanh_ngat\stm32f4xx_hal_gpio.o"
+"thuchanh_ngat\stm32f4xx_hal_dma_ex.o"
+"thuchanh_ngat\stm32f4xx_hal_dma.o"
+"thuchanh_ngat\stm32f4xx_hal_pwr.o"
+"thuchanh_ngat\stm32f4xx_hal_pwr_ex.o"
+"thuchanh_ngat\stm32f4xx_hal_cortex.o"
+"thuchanh_ngat\stm32f4xx_hal.o"
+"thuchanh_ngat\stm32f4xx_hal_exti.o"
+"thuchanh_ngat\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "ThucHanh_Ngat\ThucHanh_Ngat.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ThucHanh_Ngat.map" -o ThucHanh_Ngat\ThucHanh_Ngat.axf
